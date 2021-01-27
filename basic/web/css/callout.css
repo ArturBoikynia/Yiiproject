@@ -1,0 +1,15 @@
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-color: white;
+    border-left-width: 7px;
+    border-radius: 5px;
+}
+
+.bs-callout-danger {
+    border-left-color: #ce4844;
+}
+.bs-callout-uni{
+    border-left-color: blue;
+}
