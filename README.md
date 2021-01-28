@@ -1,2 +1,0 @@
-# Yiiproject
-Website for СV
