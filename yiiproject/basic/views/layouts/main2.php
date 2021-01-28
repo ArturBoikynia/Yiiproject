@@ -141,7 +141,7 @@ $this->registerAssetBundle(MainAsset::class);
                             ['label' => 'Skills', 'url' => ['/users/skills?id=' . getCurrentUser::$usersModel->id]],
                             ['label' => 'Experience', 'url' => ['/users/experience?id=' . getCurrentUser::$usersModel->id]],
                             ['label' => 'Gallery', 'url' => ['/users/gallery?id=' . getCurrentUser::$usersModel->id]],
-
+                            ['label' => 'Questions', 'url' => ['/users/questions?id=' . getCurrentUser::$usersModel->id]],
                         ],
                     ]);
                     ?>

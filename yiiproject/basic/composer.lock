@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "872e3492e4fb4150b1826e874c6b4132",
+    "content-hash": "267022e1b8d325a95eea07d2ab821621",
     "packages": [
         {
             "name": "asofter/yii2-imperavi-redactor",
@@ -1219,6 +1219,56 @@
                 "source": "https://github.com/paulzi/yii2-sortable"
             },
             "time": "2016-08-31T10:37:13+00:00"
+        },
+        {
+            "name": "sintret/yii2-chat-adminlte",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sintret/yii2-chat-adminlte.git",
+                "reference": "6bd1774d16078e77296c5488c0017b01ad3ff7c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sintret/yii2-chat-adminlte/zipball/6bd1774d16078e77296c5488c0017b01ad3ff7c0",
+                "reference": "6bd1774d16078e77296c5488c0017b01ad3ff7c0",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/yii2-helpers": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sintret\\chat\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Fitria",
+                    "homepage": "http://sintret.com"
+                }
+            ],
+            "description": "Yii2 extension for Chat plugin with admin lte",
+            "homepage": "https://github.com/sintret/yii2-chat-adminlte",
+            "keywords": [
+                "AdminLTE",
+                "ajax",
+                "chat",
+                "jquery",
+                "plugin",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/sintret/yii2-chat-adminlte/issues",
+                "source": "https://github.com/sintret/yii2-chat-adminlte"
+            },
+            "time": "2015-01-14T13:46:53+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

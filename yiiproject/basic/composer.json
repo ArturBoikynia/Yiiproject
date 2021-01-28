@@ -25,7 +25,8 @@
         "kartik-v/yii2-icons": "^1.4",
         "kartik-v/yii2-widget-activeform": "^1.5",
         "kartik-v/yii2-field-range": "*",
-        "yii2mod/yii2-comments": "*"
+        "yii2mod/yii2-comments": "*",
+        "sintret/yii2-chat-adminlte": "^1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

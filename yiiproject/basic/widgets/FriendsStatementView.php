@@ -48,6 +48,7 @@ class FriendsStatementView extends Widget
                                 </div>
                                 <div class="col-md-8">
                                     <h3>$object->userName</h3>
+                                    <h4 style="color: red">New reject to friendship!</h4>
                                 </div>
                             </div>
                           <div class="caption">

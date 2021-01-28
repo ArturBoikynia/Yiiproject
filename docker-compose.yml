@@ -14,11 +14,6 @@ services:
       - 80:80
     volumes:
       - ./:/var/www
-      - ./docker/nginx/mvc-shop.com.conf:/etc/nginx/conf.d/mvc-shop.com.conf
-      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
-      - ./docker/nginx/mvc-shop-hw.com.conf:/etc/nginx/conf.d/mvc-shop-hw.com.conf
-      - ./docker/nginx/mvc-shop-2020-11-30.com.conf:/etc/nginx/conf.d/mvc-shop-2020-11-30.com.conf
-      - ./docker/nginx/projekt.com.conf:/etc/nginx/conf.d/projekt.com.conf
       - ./docker/nginx/yiiproject.com.conf:/etc/nginx/conf.d/yiiproject.com.conf
     depends_on:
       - app

@@ -4,6 +4,7 @@ use app\assets\MainAsset;
 use kartik\icons\Icon;
 use kartik\form\ActiveForm;
 use app\widgets\SkillsView;
+use sintret\chat\ChatRoom;
 
 
 
@@ -12,10 +13,8 @@ use app\widgets\SkillsView;
 /* @var app\models\forms\AddSkill $skillsModel */
 
 $this->title = $model->name . ' ' . $model->surname;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Yiiusers'), 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
 
-//\yii\web\YiiAsset::register($this);
+
 $this->registerAssetBundle(MainAsset::class);
 Icon::map($this);
 
@@ -47,9 +46,10 @@ SkillsView::widget([
 
 <?php //$model1 = \app\models\entities\Yiiusers::find()->where(['id' => $model->id])->one(); ?>
 
-<?php echo \yii2mod\comments\widgets\Comment::widget([
-    'model' => $model,
-]); ?>
+<?php /*echo ChatRoom::widget([
+    'url' => \yii\helpers\Url::to(['/users/send-chat']),
+    'models'=>  \app\models\User::class,
+]); */?>
 
 
 

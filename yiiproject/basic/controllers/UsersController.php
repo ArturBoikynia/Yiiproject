@@ -374,6 +374,19 @@ class UsersController extends Controller
         ]);
     }
 
+    public function actionQuestions(int $id){
+
+        self::$model = $this->findModel($id);
+        $this->setCurrentUser($id);
+
+        if (self::$model->id !== Yii::$app->user->identity->id) {
+            $this->layout = 'main2';
+        }
+
+        return $this->render('questions', [
+            'model' => self::$model,
+        ]);
+    }
     public function actionExperience(int $id){
 
         self::$model = $this->findModel($id);
@@ -498,6 +511,12 @@ class UsersController extends Controller
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
+    }
+
+    public function actionSendChat() {
+        if (!empty($_POST)) {
+            echo \sintret\chat\ChatRoom::sendChat($_POST);
+        }
     }
 
     /**

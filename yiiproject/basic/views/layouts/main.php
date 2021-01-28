@@ -116,6 +116,7 @@ $this->registerAssetBundle(MainAsset::class);
                                 ['label' => 'My Skills', 'url' => ['/users/skills?id=' . Yii::$app->user->identity->id]],
                                 ['label' => 'My Experience', 'url' => ['/users/experience?id=' . Yii::$app->user->identity->id]],
                                 ['label' => 'My Gallery', 'url' => ['/users/gallery?id=' . Yii::$app->user->identity->id]],
+                                ['label' => 'Questions to me', 'url' => ['/users/questions?id=' . Yii::$app->user->identity->id]],
 //                              ['label' => 'Comments', 'url' => ['/site/contact']],
                             ],
                         ]);
