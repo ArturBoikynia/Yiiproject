@@ -77,7 +77,7 @@ $config = [
         'class' => mdm\admin\components\AccessControl::class,
         'allowActions' => [
             'site/*',
-//            'admin/*',
+            'admin/*',
             'programminglanguages/*',
             'users/*',
             'menu/*',
